@@ -1,11 +1,11 @@
 var KittiViewer = function (pointCloud, logger, imageCanvas) {
-    this.rootPath = "/home/hanlei/kitti2";
-    this.infoPath = "/home/hanlei/kitti2/infos_val.pkl";
-    this.detPath = "/home/hanlei/myProject/pointpillars_TANet/second/car_trained_model/eval_results/step_176320/result.pkl";
+    this.rootPath = "/home/user/kitti2";
+    this.infoPath = "/home/user/kitti2/infos_val.pkl";
+    this.detPath = "/home/user/myProject/pointpillars_TANet/second/car_trained_model/eval_results/step_176320/result.pkl";
     this.backend = "http://0.0.0.1:16666";
-    this.checkpointPath = "/home/hanlei/myProject/pointpillars_TANet/second/car_trained_model/voxelnet-176320.tckpt";
+    this.checkpointPath = "/home/user/myProject/pointpillars_TANet/second/car_trained_model/voxelnet-176320.tckpt";
     this.datasetClassName = "KittiDataset"
-    this.configPath = "/home/hanlei/myProject/pointpillars_TANet/second/configs/tanet/car/xyres_16.proto";
+    this.configPath = "/home/user/myProject/pointpillars_TANet/second/configs/tanet/car/xyres_16.proto";
     this.drawDet = false;
     this.imageIndexes = [];
     this.imageIndex = 1;
